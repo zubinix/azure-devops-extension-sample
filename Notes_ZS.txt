@@ -1,0 +1,19 @@
+* This demo requires Node 12.20.0 to build. Newer versions of node do not work.
+
+* Install NVM to make multiple node versions.
+  https://github.com/coreybutler/nvm-windows
+
+* Once uploaded to Azure DevOps. The extension must be shared with organisation before it can be installed in that organisation.
+  https://docs.microsoft.com/en-us/azure/devops/extend/publish/overview?view=azure-devops#share-an-extension
+
+* > npm install -g tfx-cli
+
+* Create new directory
+
+* > tfx extension init
+
+* > npm config set script-shell "C:\Program Files\git\bin\bash.exe" 
+  Might be required if you get 'env' error
+
+* tfx-cli is a depeciated tool. Use the Azure cli tool 'az' (insatll it) and the DevOps extension.
+  https://github.com/Azure/azure-devops-cli-extension
